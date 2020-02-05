@@ -12,7 +12,7 @@
     <title>Chat | Kakao Clone</title>
   </head>
 
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
@@ -48,7 +48,7 @@
       </div>
     </header>
 
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp"> Sun, Feburary 2, 2020</span>
         <li class="incoming-message message">
@@ -58,17 +58,28 @@
               정세운
             </span>
             <div class="message__bubble">
-              담에는 더 맛있는거 먹으러가요~
+              잘 들어가고 있어요?
             </div>
-          </div>
-          <span class="message__timestamp"></span>
         </li>
 
-        <li class="incoming-message message">
-          <span class="message__timestamp"></span>
-
+        <li class="sent-message message">
           <div class="message__bubble">
-            구랭 조아요! 오늘 넘 재밌었당ㅎㅎ
+            응 오늘 넘 재밌었어ㅎㅎ
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/avatar.png" class="g-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">
+              정세운
+            </span>
+            <div class="message__bubble">
+              저두요 담에는 더 맛있는거 먹으러가요
+            </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__bubble">
+            구랭 조아!!!! 
           </div>
         </li>
 
@@ -79,10 +90,9 @@
               정세운
             </span>
             <div class="message__bubble">
-              저두요 조심히 들어가요 누나~
+              조심히 들어가요 누나~
             </div>
           </div>
-          <span class="message__timestamp"></span>
         </li>
       </ul>
     </main>
