@@ -27,7 +27,7 @@
 }
 
 .find .find__recommended {
-  margin-top: 20px;
+  margin-top: 30px;
   padding-top: 15px;
   border-top: 1px solid #fcfcfc;
 }
@@ -36,12 +36,4 @@
   font-size: 14px;
   opacity: 0.6;
   margin-bottom: 15px;
-}
-
-.friend__add-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f5f5f5;
-  padding: 10px;
 }
