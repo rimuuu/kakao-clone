@@ -17,3 +17,13 @@
 .settings .settings__setting:last-child {
   margin-bottom: 0;
 }
+.settings .settings__titleV {
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.settings .settings__iconV {
+  padding-left: 5px;
+  font-size: 20px;
+}

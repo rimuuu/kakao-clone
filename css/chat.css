@@ -1,5 +1,6 @@
 .chats-body {
   background-image: url("../images/chatB.png");
+  height: 1000px;
 }
 
 .chat__write {
@@ -58,7 +59,6 @@
 
 .message {
   display: flex;
-  align-items: flex-start;
   width: 50%;
 }
 
@@ -71,23 +71,24 @@
 }
 .sent-message {
   align-self: flex-end;
+  padding-left: 100px;
 }
 .incoming-message img {
   width: 50px;
+  height: 50px;
   border-radius: 15px;
   margin-right: 15px;
 }
 
 .message__bubble {
   background-color: white;
-  font-size: 15px;
-  padding: 10px 15px;
+  font-size: 13px;
+  padding: 10px 20px;
   border-radius: 10px;
   margin-bottom: 30px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   font-weight: 400;
   color: white;
-  display: block;
 }
 
 .incoming-message .message__author {
