@@ -31,6 +31,9 @@
   padding-top: 15px;
   border-top: 1px solid #fcfcfc;
 }
+.find__recommended .R-avatar {
+  margin-right: 10px;
+}
 
 .find .find__title {
   font-size: 14px;

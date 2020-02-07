@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "bigscreen.css";
 
 * {
   box-sizing: border-box;
@@ -28,4 +29,19 @@ body {
 
 a {
   color: inherit;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+main {
+  animation: fadeIn 1s ease-in-out;
 }
